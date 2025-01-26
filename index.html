@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash cards</title>
+    <link rel="stylesheet" href="styles/basic.css">
+    <script src="flash_json/bacc/hoofdstuk1.js" defer>
+    </script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Flash cards</h1>
+        <nav>
+            <ul>
+                <li><a href="create.html">Create</a></li>
+                <li><a href="study.html">Study</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <center><h3 id="telling"></h3></center>
+        <div class="card">
+            <h1 style="margin-top: -15vh;" id="flashDisplay">Woorden</h1>
+        </div>
+        <div class="buttons">
+            <button onclick="flash()">Turn card</button>
+            <button style="background-color: lime;" onclick="nextFlash()">Next.</button>
+        </div>
+    </main>
+</body>
+</html>
