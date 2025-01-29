@@ -5,28 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flash cards</title>
     <link rel="stylesheet" href="styles/basic.css">
-    <script src="flash_json/bacc/hoofdstuk1.js" defer>
-    </script>
+    <script src="flash_json/bacc/hoofdstukken.js" defer></script>
     <script src="script.js" defer></script>
+    <!--<script src="script_test.js" defer></script>-->
 </head>
 <body>
+    <div class="chapters">
+        <h2>Chapters</h2>
+        <hr>
+        <p class="chapter_picker" onclick="pickChapter(this.innerHTML.slice(-1))">Chapter 1</p>
+        <p class="chapter_picker" onclick="pickChapter(this.innerHTML.slice(-1))">Chapter 2</p>
+        <p class="chapter_picker" onclick="pickChapter(this.innerHTML.slice(-1))">Chapter 3</p>
+        <p class="chapter_picker" onclick="pickChapter(this.innerHTML.slice(-1))">Chapter 4</p>
+        <p class="chapter_picker" onclick="pickChapter(this.innerHTML.slice(-1))">Chapter 5</p>
+        <p class="chapter_picker" onclick="pickChapter(this.innerHTML.slice(-1))">Chapter 6</p>
+    </div>
+    <div class="back_overlay" onclick="toggleChapters()"></div>
     <header>
         <h1>Flash cards</h1>
         <nav>
             <ul>
-                <li><a href="create.html">Create</a></li>
-                <li><a href="study.html">Study</a></li>
+                <li><a onclick="toggleChapters()">Chapters</a></li>                
             </ul>
         </nav>
     </header>
     <main>
-        <center><h3 id="telling"></h3></center>
-        <div class="card">
-            <h1 style="margin-top: -15vh;" id="flashDisplay">Woorden</h1>
+        <div style="display: flex;width: 98vw;justify-content: space-between;margin: 0 auto;">
+            <div>
+                <h3 id="hoofdstuk"></h3>
+            </div>
+            <div>
+                <h2 id="score">Score: 0</h2>
+            </div>
+            <div>
+                <h3 id="telling"></h3>
+            </div>
+        </div>
+        <div class="card" id="card">
+            <h1 style="margin-top: -15vh;" id="flashDisplay"></h1>
         </div>
         <div class="buttons">
-            <button onclick="flash()">Turn card</button>
-            <button style="background-color: lime;" onclick="nextFlash()">Next.</button>
+            <button onclick="flash()" id="turnCard">Answer</button>
+            <button id="answerCard" style="background-color: rgba(0, 255, 0, .75);" onclick="nextFlash()">Next</button>
         </div>
     </main>
 </body>

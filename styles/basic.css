@@ -3,19 +3,66 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+html{
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.back_overlay{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    cursor: pointer;
+}
+.chapters{
+    display: none;
+    position: fixed;
+    margin: 15vh auto;
+    left: calc(50% - 12% - 1em);
+    width: 24%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    z-index: 5;
+    border-radius: 25px;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.chapter_picker{
+    color: blue;
+    transition: 2s;
+    cursor: pointer;
+}
+.chapter_picker:hover{
+    color: black;
+    text-decoration: underline;
+}
 header{
     background-color: #333;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    text-align: center;
     padding: 1em;
 }
 li{
     list-style: none;
     display: inline;
     margin: 0 1em;
+    cursor: pointer;
 }
 a{
     color: white;
@@ -33,10 +80,14 @@ a:hover{
     align-items: center;
     text-align: center;
     padding: 1em;
+    background-color: rgba(0, 0, 120, 0.15);
     border: 3px solid #000;
     border-radius: 15px;
     margin: 1em auto;
     text-align: center;
+}
+#flashDisplay{
+    font-weight: 500;
 }
 .buttons{
     display: flex;
@@ -61,4 +112,7 @@ button{
 }
 button:hover{
     opacity: 0.8;
+}
+th{
+    background-color: rgba(0, 0, 0, .3);
 }
