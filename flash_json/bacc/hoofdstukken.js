@@ -126,12 +126,12 @@ const chaptersDataBacc1 = [
         answer: `De leiding zijn <b>wel</b> betrokken bij de dagelijkse werkzaamheden`
     },
     {
-        flash: `Maatregelen omtrent paradigma voor accountancy`,
+        flash: `Maatregelen omtrent de agency-thoerie.`,
         answer: `Beloningssystemen (Bonding costs) <br> Toezicht houden (Monitoring costs)`
     },
     {
         flash: `Residual losses`,
-        answer: `Door scheiding van eigendom & management, zal er noiit 100% efficiëntie zijn. De <i>kosten</i> die hieruit voortkomen, worden residual losses genoemd.`
+        answer: `Door scheiding van eigendom & management, zal er nooit 100% efficiëntie zijn. De <i>kosten</i> die hieruit voortkomen, worden residual losses genoemd.`
     },
     {
         flash: `Verschil tussen Financial Accounting & Management Accounting`,
@@ -409,254 +409,292 @@ doen functioneren en het beheersen van een huishouding, en ten behoeve van de ve
         answer: `Verwachting controleren op basis van verbanden`
     },
     {
-        flash: `Verbandscontroles .....`,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
+        flash: `Functiescheiding wordt onderverdeeld in vijf soorten functies`,
+        answer: `Beschikken, Verantwoordelijk voor een bepaald proces. <br>
+        Bewaren, 'Standen' in de kringloop bewaken. <br>
+        Registreren, mutaties in de kringloop worden gerigstreerd door de administratie. <br>
+        Controleren, zijn bepaalde verbanden te leggen in de kringloop.<br>
+        Uitvoeren, Voeren opdracht uit van de beschikkende functie.        
+        `
     },
 ];
 
 const chaptersDataBacc4 = [
     
     {
-        flash: ``,
-        answer: ``
+        flash: `De balans.`,
+        answer: `Momentopname van schulden en bezittingen`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `De winst- & verliesrekening`,
+        answer: `Jaaroverzicht van het behaalde resultaat.`
+    }, 
+    {
+        flash: `Het kasstroomoverzicht`,
+        answer: `Jaaroverzicht van ontvangsten en uitgaven.`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Het Burgerlijk Wetboek`,
+        answer: `Regels voor het opstellen, wijze vanopstelling en publicate van de jaarrekening.`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `De Raad voor de Jaarverslaggeving (RJ)`,
+        answer: `Richtlijnen met als doel de kwaliteit te bevorderen. Niet verplicht maar wel reden geven voor afwijking door organisatie.`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `International Accounting Standards Board (IASB)`,
+        answer: `Samenhangende regels voor de EU.`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Jurisprudentie`,
+        answer: `Uitspraken vanaf de rechter over het samenstellen van de jaarrekening.`
+    },
+    {
+        flash: `Een jaarverslag bestaat uit drie verplichte onderdelen`,
+        answer: `
+        De jaarrekening <br>
+        Het bestuursverslag <br>
+        De overige gegevens.
+        `
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Jaardocument`,
+        answer: `Bepaalde documenten mogen als document worden gepubliceerd`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Meetbaarheid in geld`,
+        answer: `Alleen dingen die meetbaar zijn in geld staan op de balans.`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Elk feit heeft twee gevolgen`,
+        answer: `De balans is altijd in balans`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Voorzichtheidsbeginsel`,
+        answer: `Kosten = Bekendmaking <br>
+        Opbrengsten = Realisatie`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Realisatiebeginsel`,
+        answer: `Opbrengsten pas bij realistatie, prestatie geleverd & zekerheid`
+    },
+    {
+        flash: `Toerekeningsbeginsel`,
+        answer: `Opbrengsten & kosten zijn resultaatbepalend (afschrijving)`
+    },
+    {
+        flash: `Vergelijkingsbeginsel`,
+        answer: `Alleen met geldige reden mogelijke grondslagwijziging`
+    },
+    {
+        flash: `Beginsel van economische realiteit`,
+        answer: `Economische realiteit > juridische realiteit`
+    },
+    {
+        flash: `Materialiteit`,
+        answer: `De jaarrekening hoeft niet tot op de cent nauwkeurig compleet te zijn.`
+    },
+    {
+        flash: `Waarderingsbeginsel`,
+        answer: `Activa moet tegen de kostprijs / aanschafprijs worden gerealiseerd.`
+    },
+    {
+        flash: `Continuïteitsbeginsel`,
+        answer: `Bij faillissement moet waardering plaatsvinden tegen verkoopprijs`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Actieve belastinglatentie`,
+        answer: `Fiscale winst > Gepubliceerde winst`
     },
     
     {
-        flash: ``,
-        answer: ``
+        flash: `Passieve belastinglatentie`,
+        answer: `Fiscale winst < Gepubliceerde winst`
     },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
-    {
-        flash: ``,
-        answer: ``
-    },
-    
 ];
-
 
 const chaptersDataBacc5 = [
     {
-        flash: ``,
-        answer: ``
+        flash: `Assurance opdracht`,
+        answer: `Een opdracht waarbij een accountant een conclusie formuleert om het vertrouwen van de gebruikers te versterken door evaluatie of toetsing.`
     },
     {
-        flash: ``,
-        answer: ``
+        flash: `7 regels van ViO`,
+        answer: `
+        1 - Cadeaus onder de 100 EUR of met een geldige reden. <br>
+        2 - De accountant mag niet langer dan 7 jaar betrokken zijn bij een organisatie of geldige reden. <br>
+        3 - Er mogen geen financiele belangen zijn vanuit de accountant in en de organisatie.<br>
+        4 - Er mag geen zakelijke relatie zijn tussen de accountant & de organisatie.<br>
+        5 - Er mogen geen nauwe persoonlijke relaties zijn tussen de accountant & organisatie.
+        6 - Er mag geen assurance-opdracht worden verricht i.c.m. een juridische procedure.
+        `
     },
     {
-        flash: ``,
-        answer: ``
+        flash: `Materialiteit`,
+        answer: `Materieel belang is wanneer er informatie niet kan worden weggelaten zonder dat het de beslissing van de gebruiker van de jaarrekening kan beinvloeden. De materialiteit van een post is afhankelijk van kwantitatieve & kwalitatieve factoren.`
     },
     {
-        flash: ``,
-        answer: ``
+        flash: `Risico van de accountant`,
+        answer: `Goedkeurende verklaring terwijl er fouten van materieel belang in de jaarrekening zitten.`
+    },
+    {
+        flash: `Risicoanalysemodel`,
+        answer: `Denkmodel om de aard en de omvang van de werkzaamheden te kunnen bepalen.`
+    },
+    {
+        flash: `Axiomatisch voorbehoud`,
+        answer: `Afwijkingen in de jaarrekening die naar hun aard niet hoeven te worden ontdekt of kunnen worden ontdekt door de accountant.`
+    },
+    {
+        flash: `Kwalititatief axiomatisch voorbehoud`,
+        answer: `Opzettelijk omzeilen van functiescheidingen`
+    },
+    {
+        flash: `Kwantitatief axiomatisch voorbehoud.`,
+        answer: `Afweging kosten & opbrengsten maatregel`
+    },
+    {
+        flash: `Controle-informatie`,
+        answer: `Informatie die de accountant nodig heeft om een goed onderbouwd oordeel te kunnen vellen over de jaarrekening.`
+    },
+    {
+        flash: `Fases controles (4)`,
+        answer: `
+        1. Planning van de controle <br>
+        2. Tussentijdse controle - Interimcontrole <br>
+        3. Eindejaarscontrole - Balanscontrole <br>
+        4. Evaluatie & afronding
+        `
+    },
+    {
+        flash: `4 soorten controleverklaringen`,
+        answer: `
+        1. Goedkeurende verklaring <br>
+        2. Afkeurende verklaring<br>
+        3. Verklaringen van oordeelonthouding <br>
+        4. Verklaring met beperking
+        `
     },
 ];
 
 const chaptersDataBacc6 = [
     {
-        flash: ``,
-        answer: ``
+        flash: `Deontologische theorie`,
+        answer: `Beginselenethiek (Doe een ander niet wat je zelf niet leuk vindt.)       `
     },
     {
-        flash: ``,
-        answer: ``
+        flash: `Utilitaristische theorie`,
+        answer: `
+        Gevolgenethiek (Gevolg van een handeling laat goed of fout zien)
+             
+        `
     },
     {
-        flash: ``,
-        answer: ``
+        flash: `Nutsprincipe`,
+        answer: `
+            Elke handeling zorgt voor verandering geluk.             
+        `
     },
     {
-        flash: ``,
-        answer: ``
+        flash: `Deugdethiek`,
+        answer: `
+        Karakter van een persoon die de handeling uitvoert.             
+        `
+    },
+    {
+        flash: `Zorgethiek`,
+        answer: `
+        Per situatie moet worden gekeken naar goed of fout  
+        `
+    },
+    {
+        flash: `Contracttheorie`,
+        answer: `
+        Het juiste op basis van een wet (contract)             
+        `
+    },
+    {
+        flash: `Cultureel relativisme`,
+        answer: `
+        Er mag geen oordeel worden onthouden aan andere culturen.
+        `
+    },
+    {
+        flash: `Nudges`,
+        answer: `
+        Onopvallende duwtjes die je stimuleren een bepaalde handeling te preferen boven een andere handeling             
+        `
+    },
+    {
+        flash: `Bedrijfsehtiek`,
+        answer: `
+            Ethiek die zich bezighoudt met ethische kwesties met betrekking tot organisaties.             
+        `
+    },
+    {
+        flash: `Het morele intervisiemodel van Nyenrode`,
+        answer: `
+        1. Welke beslissing moet ik nemen? <br>
+        2. Wie zijn de belanghebbenden? <br>
+        3. Wat zeggen de beroepsregels, bedrijfscodes of andere bindende voorschriften? <br>
+        4. Welke argumenten kunnen worden aangevoerd? <br>
+        5. Wat is de conclusie? <br>
+        6. Doe ik het ook?
+        `
+    },
+    {
+        flash: `Fraudedriehoek`,
+        answer: `
+        Mogelijkheid
+        Druk     
+        Rationalisatie
+        `
+    },
+    {
+        flash: `PIOVV`,
+        answer: `
+        Professionaliteit.
+        Integriteit.
+        Objectiviteit.
+        Vakbekwaamheid.
+        Vertrouwelijkheid.
+        `
+    },
+    {
+        flash: `SOx`,
+        answer: `
+        De wetgeving die de meeste regels heeft op gebeid van bedrijven in de VS.
+        `
+    },
+    {
+        flash: `Onderwerpen Code Tabaksblat (5)`,
+        answer: `
+        Naleving en handhaving de code.
+        Het bestuur
+        De raad van comissarissen
+        De algemene vergadering van aandeelhouders
+        De audit van de financiele verslaggeving en de positie van intern & extern 'accountant' 
+        `
+    },
+    {
+        flash: `Lessen om een goede 'leider' te worden (wegens de val van Enron):`,
+        answer: `
+            De opleiders van de leiders zijn hier deels verantwoordelijk voor.
+            Er moet worden gestreefd naar integratie van ethisch handelen.
+            De verantwoordelijkheden moeten voor toekomstige leiders duidelijk zijn.
+            Sensiviteit moet individuele en collectieve elementen omvatten.
+            Er moet erkenning zijn voor de geloofwaardigheid.
+        `
     },
 ];
