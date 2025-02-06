@@ -272,7 +272,7 @@ doen functioneren en het beheersen van een huishouding, en ten behoeve van de ve
         answer: `Een proces door het management dat zekerheid geeft`
     },
     {
-        flash: `Interne beheersing geeft zeker over: (4)`,
+        flash: `Interne beheersing geeft zekerheid over: (4)`,
         answer: `
         1. Betrouwbaarheid van de financiële rapportage. <br>
         2. Naleving van wet- & regelgeving. <br>
@@ -664,10 +664,10 @@ const chaptersDataBacc6 = [
     {
         flash: `PIOVV`,
         answer: `
-        Professionaliteit.
-        Integriteit.
-        Objectiviteit.
-        Vakbekwaamheid.
+        Professionaliteit. <br>
+        Integriteit <br>
+        Objectiviteit.<br>
+        Vakbekwaamheid.<br>
         Vertrouwelijkheid.
         `
     },
@@ -680,20 +680,20 @@ const chaptersDataBacc6 = [
     {
         flash: `Onderwerpen Code Tabaksblat (5)`,
         answer: `
-        Naleving en handhaving de code.
-        Het bestuur
-        De raad van comissarissen
-        De algemene vergadering van aandeelhouders
-        De audit van de financiele verslaggeving en de positie van intern & extern 'accountant' 
+        Naleving en handhaving de code.<br>
+        Het bestuur <br>
+        De raad van comissarissen <br>
+        De algemene vergadering van aandeelhouders <br>
+        De audit van de financiele verslaggeving en de positie van intern & extern 'accountant' <br>
         `
     },
     {
         flash: `Lessen om een goede 'leider' te worden (wegens de val van Enron):`,
         answer: `
-            De opleiders van de leiders zijn hier deels verantwoordelijk voor.
-            Er moet worden gestreefd naar integratie van ethisch handelen.
-            De verantwoordelijkheden moeten voor toekomstige leiders duidelijk zijn.
-            Sensiviteit moet individuele en collectieve elementen omvatten.
+            De opleiders van de leiders zijn hier deels verantwoordelijk voor.<br>
+            Er moet worden gestreefd naar integratie van ethisch handelen.<br>
+            De verantwoordelijkheden moeten voor toekomstige leiders duidelijk zijn.<br>
+            Sensiviteit moet individuele en collectieve elementen omvatten.<br>
             Er moet erkenning zijn voor de geloofwaardigheid.
         `
     },

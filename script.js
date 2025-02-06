@@ -34,7 +34,7 @@ function flash() {
         displayText.innerHTML = chaptersData[i].flash;
         document.getElementById('card').style.backgroundColor = "rgba(0, 0, 120, 0.15)";
         document.getElementById('turnCard').style.backgroundColor = "transparent";
-        document.getElementById('turnCard').innerHTML = "Answer";
+        document.getElementById('turnCard').innerHTML = "Previous";
         document.getElementById('answerCard').innerHTML = "Next";
     }
 }
@@ -51,11 +51,11 @@ function nextFlash() {
     displayText.innerHTML = chaptersData[i].flash;
     document.getElementById('card').style.backgroundColor = "rgba(0, 0, 120, 0.15)";
     document.getElementById('turnCard').style.backgroundColor = "transparent";
-    document.getElementById('turnCard').innerHTML = "Answer";
+    document.getElementById('turnCard').innerHTML = "Previous";
     document.getElementById('answerCard').innerHTML = "Next";
     document.getElementById('telling').innerHTML = i + " / " + maxNum;
     toggleFlash = false;
-    document.getElementById('turnCard').innerHTML = "Answer";
+    document.getElementById('turnCard').innerHTML = "Previous";
     document.getElementById('card').style.backgroundColor = "rgba(0, 0, 120, 0.15)";
     console.log("Card number: ", i);
 }

@@ -104,6 +104,7 @@ h2, h3{
     margin: 1em auto;
     text-align: center;
     transition: 1.2s;
+    cursor: pointer;
 }
 #flashDisplay{
     font-weight: 500;

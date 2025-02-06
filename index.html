@@ -41,13 +41,13 @@
                 <h3 id="score">Score: 0</h3>
             </div>
         </div>
-        <div class="card" id="card">
+        <div class="card" id="card" onclick="flash()">
             <h1 style="margin-top: -15vh;" id="flashDisplay"></h1>
         </div>
         <br>
         <div class="buttons">
-            <button onclick="flash()" id="turnCard">Answer</button>
-            <button id="answerCard" style="background-color: #2D81FF;" onclick="nextFlash()">Next</button>
+            <button onclick="toggleFlash ? incorrect() : previousFlash()" id="turnCard">Previous</button>
+            <button id="answerCard" style="background-color: #2D81FF;" onclick="toggleFlash ? correct() : nextFlash();">Next</button>
         </div>
     </main>
 </body>
