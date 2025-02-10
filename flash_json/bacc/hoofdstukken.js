@@ -437,7 +437,7 @@ const chaptersDataBacc4 = [
     
     {
         flash: `Het Burgerlijk Wetboek`,
-        answer: `Regels voor het opstellen, wijze vanopstelling en publicate van de jaarrekening.`
+        answer: `Regels voor het opstellen, wijze vanopstelling en publicatie van de jaarrekening.`
     },
     
     {
@@ -536,13 +536,13 @@ const chaptersDataBacc5 = [
         2 - De accountant mag niet langer dan 7 jaar betrokken zijn bij een organisatie of geldige reden. <br>
         3 - Er mogen geen financiele belangen zijn vanuit de accountant in en de organisatie.<br>
         4 - Er mag geen zakelijke relatie zijn tussen de accountant & de organisatie.<br>
-        5 - Er mogen geen nauwe persoonlijke relaties zijn tussen de accountant & organisatie.
+        5 - Er mogen geen nauwe persoonlijke relaties zijn tussen de accountant & organisatie.<br>
         6 - Er mag geen assurance-opdracht worden verricht i.c.m. een juridische procedure.
         `
     },
     {
         flash: `Materialiteit`,
-        answer: `Materieel belang is wanneer er informatie niet kan worden weggelaten zonder dat het de beslissing van de gebruiker van de jaarrekening kan beinvloeden. De materialiteit van een post is afhankelijk van kwantitatieve & kwalitatieve factoren.`
+        answer: `Materieel belang is wanneer er informatie niet kan worden weggelaten zonder dat het de beslissing van de gebruiker van de jaarrekening kan beinvloeden. <br> De materialiteit van een post is afhankelijk van kwantitatieve & kwalitatieve factoren.`
     },
     {
         flash: `Risico van de accountant`,
@@ -680,9 +680,9 @@ const chaptersDataBacc6 = [
     {
         flash: `Onderwerpen Code Tabaksblat (5)`,
         answer: `
-        Naleving en handhaving de code.<br>
         Het bestuur <br>
         De raad van comissarissen <br>
+        Naleving en handhaving de code.<br>
         De algemene vergadering van aandeelhouders <br>
         De audit van de financiele verslaggeving en de positie van intern & extern 'accountant' <br>
         `

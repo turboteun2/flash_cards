@@ -1,14 +1,26 @@
+
+const params = new URLSearchParams(window.location.search);
+
 function getChapter() {
-    const params = new URLSearchParams(window.location.search);
     var chapter = params.get("chapter") || 0;
     document.getElementById("hoofdstuk").innerHTML = "Hoofdstuk: " + (1 + parseInt(chapter));
     return chapter;
 }
 
+function shuffleCards(cards) {
+    var arr = cards;
+    for (let i = arr.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap elements
+    }
+    return arr; // Return the shuffled array
+}
+
 const chapters = [chaptersDataBacc1, chaptersDataBacc2, chaptersDataBacc3, chaptersDataBacc4, chaptersDataBacc5, chaptersDataBacc6]
 var displayText = document.getElementById('flashDisplay');
 const value = getChapter(); // Default to 0 if invalid
-var chaptersData = chapters[value];
+var shuffleBoolean = params.get("shuffle") || false;
+var chaptersData = shuffleBoolean ? shuffleCards(chapters[value]) : chapters[value];
 var toggleChaptersVar = false;
 var toggleFlash = false;
 var score = 0;
@@ -37,12 +49,6 @@ function flash() {
         document.getElementById('turnCard').innerHTML = "Previous";
         document.getElementById('answerCard').innerHTML = "Next";
     }
-}
-
-function pickChapter(x) {
-    const params = new URLSearchParams(window.location.search);
-    params.set('chapter', x - 1);
-    window.location.href = `${window.location.pathname}?${params}`;
 }
 
 function nextFlash() {
@@ -93,6 +99,16 @@ function incorrect(){
 
     maxNum++;
     nextFlash();
+}
+
+function pickChapter(x) {
+    params.set('chapter', x - 1);
+    window.location.href = `${window.location.pathname}?${params}`;
+}
+
+function shuffleCardsBoolean() {
+    params.set('shuffle', true);
+    window.location.href = `${window.location.pathname}?${params}`;
 }
 
 document.addEventListener('keydown', (event) => {

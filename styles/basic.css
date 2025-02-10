@@ -106,6 +106,10 @@ h2, h3{
     transition: 1.2s;
     cursor: pointer;
 }
+.card:hover{
+    opacity: .8;
+    border: 2px solid rgba(0, 0, 255, 0.5);
+}
 #flashDisplay{
     font-weight: 500;
 }

@@ -22,7 +22,7 @@
     </div>
     <div class="back_overlay" onclick="toggleChapters()"></div>
     <header>
-        <h1 style="font-family: Georgia;font-weight: 500;" onclick="shuffleCardsBoolean()">Flash cards</h1>
+        <h1 style="font-family: Georgia;font-weight: 500;">Flash cards</h1>
         <nav>
             <ul>
                 <li><a onclick="toggleChapters()">Chapters</a></li>        
@@ -46,9 +46,39 @@
         </div>
         <br>
         <div class="buttons">
-            <button onclick="toggleFlash ? incorrect() : previousFlash()" id="turnCard">Previous</button>
-            <button id="answerCard" style="background-color: #2D81FF;" onclick="toggleFlash ? correct() : nextFlash();">Next</button>
+            <input id="userUid" style="height: 50px; width: 400px;"></input>
+            <button id="" style="background-color: #2D81FF;max-width: 200px;" onclick="checkAnswerAi()">Enter</button>
+            <button style="display: none;" onclick="toggleFlash ? incorrect() : previousFlash()" id="turnCard">Previous</button>
+            <button style="display: none;"id="answerCard" style="background-color: #2D81FF;" onclick="toggleFlash ? correct() : nextFlash();">Next</button>
         </div>
     </main>
 </body>
+<script>
+    function checkAnswerAi(){
+        fetch('http://127.0.0.1:5000/flashcard', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                flashcard: chaptersData[i].flash,
+                correct_answer: displayText.innerHTML = chaptersData[i].answer,
+                user_answer: document.getElementById("userUid").value
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            console.log(data)
+            json_data = data["response"]
+
+            let cijfer = json_data["cijfer"]
+            let redenen = json_data["redenen"]
+
+            console.log(cijfer, redenen)
+
+        })
+        .catch(error => console.error('Error:', error));
+}
+
+</script>
 </html>
