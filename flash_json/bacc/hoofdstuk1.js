@@ -1,95 +1,66 @@
 const chaptersData = [
-    {
-        flash: "Pragmatische kennis",
-        answer: "Kennis die je nodig hebt om een taak uit te voeren."
-    },
-    {
-        flash: "Eisen wetenschappelijke kennis",
-        answer:`1. De kennis is gegrond. <br>
-                2. De kennis intersubjectief. <br>
-                3. De kennis is systematisch.`
-    },
-    {
-        flash: `<B>Tegenstelling van:<B> <br>
-                Formele wetenschappen (abstracte gedachtecontructies)
-                `, 
-        answer: "Empirische wetenschappen"
-    },
-    {
-        flash: `<B>Tegenstelling van:<B> <br>Natuurwetenschappen (materie, mens, dier)`, 
-        answer: "Gedragswetenschappen (menselijk gedrag)"
-    },
-    {
-        flash: "Accountancy ervaringsobject",
-        answer: "Het geheel van gebeurtenissen in en omtrent organisaties."
-    },
-    {
-        flash: "Kenobject/ assurance",
-        answer: "Beoordelen van informatie en de inrichting en het functioneren van informatiesystemen met als doel een bepaalde mate van zekerheid te verkrijgen."
-    },
-    {
-        flash: `Deductie`,
-        answer: `Algemene uitspraken naar invdividuele conlusies. <br><br>
-                <B>Voorbeeld:<B> <br>
-                Alle mensen zijn sterfelijk. <br>
-                Socrates is een mens. <br>
-                Socrates is sterfelijk.`
-    },
-    {
-        flash: `Inductie`,
-        answer: `Specifieke uitspraken naar algemene geldende uitspraak <br><br>
-                <B>Voorbeeld:<B> <br>
-                Socrates is sterfelijk. <br>
-                Plato is sterfelijk. <br>
-                Alle mensen zijn sterfelijk.`
-    },
-    {
-        flash: `Abductie`,
-        answer: `Een verschijnsel naar mogelijke verklaring. <br><br>
-                <b> Voorbeeld: <b> <br>
-                Het gras is nat. <br>
-                Het heeft geregend.`
-
-    },
-    {
-        flash: `Hypothese`,
-        answer: `De conclusie die uit een deductieve of indiductieve redenering volgt.`
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-    {
-        flash: ``,
-        answer: ``
-    },
-
+    { flash: "A1", answer: "Zwart" },
+    { flash: "A2", answer: "Wit" },
+    { flash: "A3", answer: "Zwart" },
+    { flash: "A4", answer: "Wit" },
+    { flash: "A5", answer: "Zwart" },
+    { flash: "A6", answer: "Wit" },
+    { flash: "A7", answer: "Zwart" },
+    { flash: "A8", answer: "Wit" },
+    { flash: "B1", answer: "Wit" },
+    { flash: "B2", answer: "Zwart" },
+    { flash: "B3", answer: "Wit" },
+    { flash: "B4", answer: "Zwart" },
+    { flash: "B5", answer: "Wit" },
+    { flash: "B6", answer: "Zwart" },
+    { flash: "B7", answer: "Wit" },
+    { flash: "B8", answer: "Zwart" },
+    { flash: "C1", answer: "Zwart" },
+    { flash: "C2", answer: "Wit" },
+    { flash: "C3", answer: "Zwart" },
+    { flash: "C4", answer: "Wit" },
+    { flash: "C5", answer: "Zwart" },
+    { flash: "C6", answer: "Wit" },
+    { flash: "C7", answer: "Zwart" },
+    { flash: "C8", answer: "Wit" },
+    { flash: "D1", answer: "Wit" },
+    { flash: "D2", answer: "Zwart" },
+    { flash: "D3", answer: "Wit" },
+    { flash: "D4", answer: "Zwart" },
+    { flash: "D5", answer: "Wit" },
+    { flash: "D6", answer: "Zwart" },
+    { flash: "D7", answer: "Wit" },
+    { flash: "D8", answer: "Zwart" },
+    { flash: "E1", answer: "Zwart" },
+    { flash: "E2", answer: "Wit" },
+    { flash: "E3", answer: "Zwart" },
+    { flash: "E4", answer: "Wit" },
+    { flash: "E5", answer: "Zwart" },
+    { flash: "E6", answer: "Wit" },
+    { flash: "E7", answer: "Zwart" },
+    { flash: "E8", answer: "Wit" },
+    { flash: "F1", answer: "Wit" },
+    { flash: "F2", answer: "Zwart" },
+    { flash: "F3", answer: "Wit" },
+    { flash: "F4", answer: "Zwart" },
+    { flash: "F5", answer: "Wit" },
+    { flash: "F6", answer: "Zwart" },
+    { flash: "F7", answer: "Wit" },
+    { flash: "F8", answer: "Zwart" },
+    { flash: "G1", answer: "Zwart" },
+    { flash: "G2", answer: "Wit" },
+    { flash: "G3", answer: "Zwart" },
+    { flash: "G4", answer: "Wit" },
+    { flash: "G5", answer: "Zwart" },
+    { flash: "G6", answer: "Wit" },
+    { flash: "G7", answer: "Zwart" },
+    { flash: "G8", answer: "Wit" },
+    { flash: "H1", answer: "Wit" },
+    { flash: "H2", answer: "Zwart" },
+    { flash: "H3", answer: "Wit" },
+    { flash: "H4", answer: "Zwart" },
+    { flash: "H5", answer: "Wit" },
+    { flash: "H6", answer: "Zwart" },
+    { flash: "H7", answer: "Wit" },
+    { flash: "H8", answer: "Zwart" }
 ];
